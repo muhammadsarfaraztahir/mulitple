@@ -75,10 +75,10 @@ const App = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
+        {/* <Tab.Screen name="Home" component={HomeScreen} /> */}
         <Tab.Screen name="Search" component={SearchScreen} />
         <Tab.Screen name="Create" component={CreateScreen} />
-        <Tab.Screen name="Message" component={MessageScreen} />
+        {/* <Tab.Screen name="Message" component={MessageScreen} /> */}
       </Tab.Navigator>
     </NavigationContainer>
   );
