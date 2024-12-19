@@ -2,8 +2,8 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import LoginPage from '../mulitple/screens/LoginPage.jsx'; // Adjust the path according to your project structure
-import SignupPage from '../mulitple/screens/SignupPage.jsx'; // Adjust the path according to your project structure
+import LoginPage from './screens/LoginPage.jsx'; // Adjust the path according to your project structure
+import SignupPage from './screens/SignupPage.jsx'; // Adjust the path according to your project structure
 
 const Stack = createStackNavigator();
 
